@@ -9,6 +9,7 @@ import HelloComponent from './component/HelloComponent';
 // import StateFullComponent from './container/StateFullComponent';
 import Test from './Test';
 import BlogPost from './container/BlogPost/BlogPost'
+import Mahasiswa from './container/Mahasiswa/Mahasiswa';
 
 // const Hello = () =>{
 //   return <p>hello</p>
@@ -24,9 +25,14 @@ class StateFullComponent extends React.Component{
   }
 }
 
+// untuk menjalankan halaman artikel
+// ReactDOM.render(
+//   <BlogPost />,
+// document.getElementById('content')
+// );
 
 ReactDOM.render(
-    <BlogPost />,
+    <Mahasiswa />,
   document.getElementById('content')
 );
 
